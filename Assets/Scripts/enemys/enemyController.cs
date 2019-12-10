@@ -48,6 +48,7 @@ public class enemyController : MonoBehaviour
     {
         destroying = true;
         agent.speed = 0;
+        agent.enabled = false;
 
         sound.clip = data.death;
         sound.Play();
