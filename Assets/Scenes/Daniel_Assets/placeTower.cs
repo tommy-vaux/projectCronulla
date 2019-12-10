@@ -33,12 +33,13 @@ public class placeTower : MonoBehaviour
                 var actualTowerred = batTowerred;
                 if (hit.transform.tag == "placementArea")
                 {
+                    actualTowerred.transform.position = new Vector3(-1000, -1000, -1000);
                     actualTower.transform.position = actualplace;
                     Debug.Log("Placeable at" + hit.point + "!");
                 }
                 else
                 {
-                    //actualTower.transform.position
+                    actualTower.transform.position = new Vector3(-1000, -1000, -1000);
                     actualTowerred.transform.position = hit.point;
                     Debug.Log("Not Placeable at" + hit.point + "!");
                 }
