@@ -18,8 +18,12 @@ public class enemyController : MonoBehaviour
     void Start()
     {
         currentHealth = data.health;
+        agent.speed = data.speed;
+
+
         agent = GetComponent<NavMeshAgent>();
         agent.destination = target.transform.position;
+        
     }
 
     // Update is called once per frame
