@@ -10,11 +10,14 @@ public class enemyController : MonoBehaviour
 
     public enemy data;
 
+    public float currentHealth;
+
     public GameObject target;
 
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = data.health;
         agent = GetComponent<NavMeshAgent>();
         agent.destination = target.transform.position;
     }

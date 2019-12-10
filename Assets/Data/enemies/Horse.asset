@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66eb790878cd12d49817c8c0aa151d43, type: 3}
-  m_Name: Swing Bat
+  m_Script: {fileID: 11500000, guid: 8bb1c759248f49145adfaa3e07ec4b00, type: 3}
+  m_Name: Horse
   m_EditorClassIdentifier: 
-  range: 4
-  damage: 5
-  cooldown: 0.75
-  cost: 10
-  attack: {fileID: 8300000, guid: 9b15a5609f118134ab0dc70facbac0d6, type: 3}
-  place: {fileID: 0}
+  health: 20
+  speed: 0
+  value: 0
+  moving: {fileID: 0}
+  hit: {fileID: 0}
+  idle: {fileID: 0}
+  death: {fileID: 0}
   model: {fileID: 0}

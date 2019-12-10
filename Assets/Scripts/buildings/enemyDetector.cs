@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class enemyDetector : MonoBehaviour
 {
-
+    public CapsuleCollider thisCollider;
     public List<Collider> enemiesInRange;
+
+    private void Awake()
+    {
+        thisCollider = GetComponent<CapsuleCollider>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {

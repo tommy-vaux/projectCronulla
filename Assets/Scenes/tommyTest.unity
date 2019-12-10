@@ -376,6 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6f37b5874526e488d151af32b649ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisCollider: {fileID: 0}
   enemiesInRange: []
 --- !u!1 &1576547638
 GameObject:
@@ -577,7 +578,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: d6f843ed2261c974bae1096aa050c180, type: 2}
+  currentHealth: 0
   target: {fileID: 403678752}
 --- !u!195 &1924609291
 NavMeshAgent:
@@ -696,7 +698,7 @@ PrefabInstance:
     - target: {fileID: 9196888542661626934, guid: d6cf4ae5ff10a3b468f5e26522fd9489,
         type: 3}
       propertyPath: m_Radius
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9196888542763777043, guid: d6cf4ae5ff10a3b468f5e26522fd9489,
         type: 3}
@@ -708,6 +710,12 @@ PrefabInstance:
       propertyPath: detector
       value: 
       objectReference: {fileID: 694609488}
+    - target: {fileID: 9196888542763777046, guid: d6cf4ae5ff10a3b468f5e26522fd9489,
+        type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: a2fa9a0d26dba754382cc631502e8a61,
+        type: 2}
     - target: {fileID: 9196888542763777047, guid: d6cf4ae5ff10a3b468f5e26522fd9489,
         type: 3}
       propertyPath: m_LocalPosition.x
