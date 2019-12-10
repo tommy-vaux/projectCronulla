@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Trojan Horse
   m_EditorClassIdentifier: 
   health: 100
-  speed: 0
-  value: 0
+  speed: 1
+  value: 100
   moving: {fileID: 0}
   hit: {fileID: 0}
   idle: {fileID: 0}
-  death: {fileID: 0}
+  death: {fileID: 8300000, guid: f406903d749bbc348aa8deb3870debd0, type: 3}
   model: {fileID: 0}
