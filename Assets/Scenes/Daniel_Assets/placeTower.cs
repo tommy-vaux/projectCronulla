@@ -34,13 +34,13 @@ public class placeTower : MonoBehaviour
                 if (hit.transform.tag == "placementArea")
                 {
                     actualTower.transform.position = actualplace;
-                    Debug.Log("Placeable at" + actualplace + "!");
+                    Debug.Log("Placeable at" + hit.point + "!");
                 }
                 else
                 {
                     //actualTower.transform.position
                     actualTowerred.transform.position = hit.point;
-                    Debug.Log("Not Placeable!");
+                    Debug.Log("Not Placeable at" + hit.point + "!");
                 }
             }
         }
