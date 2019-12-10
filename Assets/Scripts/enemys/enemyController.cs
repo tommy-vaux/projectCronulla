@@ -18,11 +18,16 @@ public class enemyController : MonoBehaviour
 
     bool destroying = false;
 
+    public bool reachedEnd = false;
+
+    public gameController controller;
+
     // Start is called before the first frame update
     void Start()
     {
          sound = GetComponent<AudioSource>();
         agent = GetComponent<NavMeshAgent>();
+        controller = GameObject.Find("GAME CONTROLLER").GetComponent<gameController>();
 
         currentHealth = data.health;
         agent.speed = data.speed;
@@ -41,6 +46,13 @@ public class enemyController : MonoBehaviour
                 StartCoroutine(onDestroyed());
             }
             
+        }
+
+        if(reachedEnd)
+        {
+            controller.health -= data.damage;
+
+            Object.Destroy(this.gameObject);
         }
     }
 

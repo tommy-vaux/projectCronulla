@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66eb790878cd12d49817c8c0aa151d43, type: 3}
   m_Name: Swing Bat
   m_EditorClassIdentifier: 
-  range: 4
+  range: 3
   damage: 5
   cooldown: 0.75
   cost: 10

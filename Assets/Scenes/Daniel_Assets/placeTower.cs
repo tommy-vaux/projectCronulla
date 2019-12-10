@@ -18,7 +18,7 @@ public class placeTower : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 if (hit.transform.tag == "placementArea"){
-                    Vector3 actualplace = new Vector3(hit.transform.position.x, hit.transform.position.y + 0.3f, hit.transform.position.z);
+                    Vector3 actualplace = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.transform.position.z);
                     var place = Instantiate(InstantiateTower, actualplace, hit.transform.rotation);
                     Debug.Log("Placed at"+ actualplace+"!"); 
                 }
