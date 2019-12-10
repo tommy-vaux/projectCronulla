@@ -11,6 +11,7 @@ public class enemy : ScriptableObject
     public float health;
     public float speed;
     public float value;
+    public int damage; // damage done to player health if it reaches the end
 
     [Header("Sound")]
     public AudioClip moving; // only used 

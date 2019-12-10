@@ -15,6 +15,7 @@ MonoBehaviour:
   health: 100
   speed: 1
   value: 100
+  damage: 50
   moving: {fileID: 0}
   hit: {fileID: 0}
   idle: {fileID: 0}
