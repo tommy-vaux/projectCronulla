@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1969,7 +1969,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18096
+  m_Name: pb_Mesh-104692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2132,7 +2132,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18088
+  m_Name: pb_Mesh-104684
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3338,7 +3338,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23884
+  m_Name: pb_Mesh82010
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4906,7 +4906,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18100
+  m_Name: pb_Mesh-104696
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -55763,7 +55763,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -55788,13 +55788,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020287030}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 25, y: 19.7, z: -0.2}
+  m_LocalRotation: {x: 0.7071011, y: 0.0028384943, z: -0.0028384943, w: 0.7071011}
+  m_LocalPosition: {x: 25, y: 94.8, z: 25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0.46, z: 0}
 --- !u!114 &1020287034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57189,7 +57189,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18090
+  m_Name: pb_Mesh-104686
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -57520,7 +57520,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18092
+  m_Name: pb_Mesh-104688
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -57821,7 +57821,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18102
+  m_Name: pb_Mesh-104698
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -60793,7 +60793,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18086
+  m_Name: pb_Mesh-104682
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -61970,7 +61970,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18098
+  m_Name: pb_Mesh-104694
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -63711,7 +63711,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18094
+  m_Name: pb_Mesh-104690
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
