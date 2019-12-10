@@ -30,9 +30,17 @@ public class buildingController : MonoBehaviour
     IEnumerator attackFurthestEnemy()
     {
         attackedEnemies = false;
-        Debug.Log("Attacking the enemy for " + data.damage + " damage");
+        
         // damage the hit enemy
-        detector.enemiesInRange[0].gameObject.GetComponent<enemyController>().currentHealth -= data.damage;
+        if (detector.enemiesInRange[0] != null)
+        {
+            Debug.Log("Attacking the enemy for " + data.damage + " damage");
+            detector.enemiesInRange[0].gameObject.GetComponent<enemyController>().currentHealth -= data.damage;
+            if(detector.enemiesInRange[0].gameObject.GetComponent<enemyController>().currentHealth <= 0)
+            {
+                detector.enemiesInRange.RemoveAt(0);
+            }
+        }
         // wait for the cooldown to finish
         yield return new WaitForSeconds(data.cooldown);
         attackedEnemies = true;
