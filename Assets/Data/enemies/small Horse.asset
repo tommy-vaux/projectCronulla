@@ -17,7 +17,7 @@ MonoBehaviour:
   value: 10
   damage: 1
   moving: {fileID: 0}
-  hit: {fileID: 0}
+  hit: {fileID: 8300000, guid: 59c741f41c43d84458db3ed21e918320, type: 3}
   idle: {fileID: 0}
   death: {fileID: 8300000, guid: f406903d749bbc348aa8deb3870debd0, type: 3}
   model: {fileID: 0}
