@@ -1,9 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 // this script handles: Economy, other 
 public class gameController : MonoBehaviour
 {
+
+
+    [Header("UI")]
+    public TextMeshProUGUI healthText;
+    public TextMeshProUGUI candyText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI waveText;
+    public TextMeshProUGUI gamespeedText;
 
     [Header("Economy")]
     public int health = 0;
@@ -33,6 +42,11 @@ public class gameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        healthText.text = ": " + health + "%";
+        candyText.text = ": " + candy;
+        scoreText.text = "Score: " + score;
+        waveText.text = "Wave: " + wave;
+        gamespeedText.text = ":" + speeds[gameSpeedChosen] + "X";
 
     }
 
