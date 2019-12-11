@@ -28,6 +28,7 @@ public class enemyController : MonoBehaviour
         sound = GetComponent<AudioSource>();
         agent = GetComponent<NavMeshAgent>();
         controller = GameObject.Find("GAME CONTROLLER").GetComponent<gameController>();
+        target = GameObject.Find("EnemyTarget");
 
         currentHealth = data.health;
         agent.speed = data.speed;
@@ -62,6 +63,7 @@ public class enemyController : MonoBehaviour
         agent.speed = 0;
         agent.enabled = false;
 
+        controller.candy += (int)data.value;
         sound.clip = data.death;
         sound.Play();
 
