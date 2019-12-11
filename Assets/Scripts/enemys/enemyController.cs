@@ -25,7 +25,7 @@ public class enemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         sound = GetComponent<AudioSource>();
+        sound = GetComponent<AudioSource>();
         agent = GetComponent<NavMeshAgent>();
         controller = GameObject.Find("GAME CONTROLLER").GetComponent<gameController>();
 
