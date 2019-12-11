@@ -42,13 +42,15 @@ public class placeTower : MonoBehaviour
                 if (hit.transform.tag == "placementArea")
                 {
                     actualTowerred.transform.position = new Vector3(-1000, -1000, -1000);
-                    actualTower.transform.position = actualplace;
+                    actualTower.transform.position = new Vector3(hit.transform.position.x, hit.transform.position.y + 1f, hit.transform.position.z); // was actualPlace
                     //Debug.Log("Placeable at" + hit.point + "!");
                 }
                 else
                 {
                     actualTower.transform.position = new Vector3(-1000, -1000, -1000);
-                    actualTowerred.transform.position = hit.point;
+
+                    //actualTowerred.transform.position = hit.point;
+                    actualTowerred.transform.position = new Vector3(hit.point.x, hit.point.y + 1.5f, hit.point.z);
                     //Debug.Log("Not Placeable at" + hit.point + "!");
                 }
             } else if (EventSystem.current.currentSelectedGameObject != null)

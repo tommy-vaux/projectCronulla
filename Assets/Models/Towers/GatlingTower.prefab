@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2787946278627842326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559413442724732878}
+  m_Layer: 0
+  m_Name: flip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1559413442724732878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2787946278627842326}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.87, y: 0, z: 1.177}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8110848220960436051}
+  m_Father: {fileID: 6968120919746758305}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &3520757548674866582
 GameObject:
   m_ObjectHideFlags: 0
@@ -24,15 +55,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3520757548674866582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8, y: -1.185, z: 0.91}
+  m_LocalPosition: {x: 0.06999999, y: -1.185, z: -0.26700002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6968120919045684712}
   - {fileID: 6968120919421839074}
   - {fileID: 8055453834253431416}
   - {fileID: 6968120919213638555}
-  m_Father: {fileID: 6968120919746758305}
-  m_RootOrder: 2
+  m_Father: {fileID: 1559413442724732878}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4180420730707067870
 GameObject:
@@ -14277,7 +14308,7 @@ GameObject:
   - component: {fileID: 6968120919746758305}
   - component: {fileID: 4573062096740085685}
   m_Layer: 0
-  m_Name: OLD gatling gun
+  m_Name: GatlingTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14296,7 +14327,7 @@ Transform:
   m_Children:
   - {fileID: 6968120920481462943}
   - {fileID: 6968120919948834421}
-  - {fileID: 8110848220960436051}
+  - {fileID: 1559413442724732878}
   - {fileID: 6010242114819166430}
   m_Father: {fileID: 0}
   m_RootOrder: 0
