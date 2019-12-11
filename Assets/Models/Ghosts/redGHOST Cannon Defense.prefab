@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5645680265240842697}
   - component: {fileID: 5645680265240842696}
   - component: {fileID: 5645680265240842695}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (3)-Merged
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5885,7 +5885,7 @@ GameObject:
   - component: {fileID: 5645680265565284548}
   - component: {fileID: 5645680265565284547}
   - component: {fileID: 5645680265565284546}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe-Merged (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6040,7 +6040,7 @@ GameObject:
   - component: {fileID: 5645680265597689113}
   - component: {fileID: 5645680265597689112}
   - component: {fileID: 5645680265597689111}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8290,7 +8290,7 @@ GameObject:
   - component: {fileID: 5645680265678785468}
   - component: {fileID: 5645680265678785467}
   - component: {fileID: 5645680265678785466}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10540,7 +10540,7 @@ GameObject:
   - component: {fileID: 5645680265772506605}
   - component: {fileID: 5645680265772506604}
   - component: {fileID: 5645680265772506603}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12790,7 +12790,7 @@ GameObject:
   - component: {fileID: 5645680266132728205}
   - component: {fileID: 5645680266132728204}
   - component: {fileID: 5645680266132728203}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15039,7 +15039,7 @@ GameObject:
   - component: {fileID: 5645680266299613536}
   - component: {fileID: 5645680266299613567}
   - component: {fileID: 5645680266299613566}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe-Merged
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16489,7 +16489,7 @@ GameObject:
   - component: {fileID: 5645680266480206974}
   - component: {fileID: 5645680266480206973}
   - component: {fileID: 5645680266480206972}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16799,7 +16799,7 @@ GameObject:
   - component: {fileID: 5645680266583648402}
   - component: {fileID: 5645680266583648401}
   - component: {fileID: 5645680266583648400}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19049,7 +19049,7 @@ GameObject:
   - component: {fileID: 5645680266594310517}
   - component: {fileID: 5645680266594310516}
   - component: {fileID: 5645680266594310515}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19359,7 +19359,7 @@ GameObject:
   - component: {fileID: 5645680266674691090}
   - component: {fileID: 5645680266674691089}
   - component: {fileID: 5645680266674691088}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21609,7 +21609,7 @@ GameObject:
   - component: {fileID: 5645680266703156592}
   - component: {fileID: 5645680266703156367}
   - component: {fileID: 5645680266703156366}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21920,7 +21920,7 @@ GameObject:
   - component: {fileID: 5645680266774835183}
   - component: {fileID: 5645680266774835182}
   - component: {fileID: 5645680266774835181}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22327,7 +22327,7 @@ GameObject:
   - component: {fileID: 5645680266820094671}
   - component: {fileID: 5645680266820094670}
   - component: {fileID: 5645680266820094669}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24573,7 +24573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5645680266855545369}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: redGHOST Cannon Defense
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24589,7 +24589,7 @@ Transform:
   m_GameObject: {fileID: 5645680266855545368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.41656, y: -6.5372925, z: 4.430176}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children:
   - {fileID: 5645680266774835180}
   - {fileID: 5645680265240842694}
@@ -24626,7 +24626,7 @@ GameObject:
   - component: {fileID: 5645680266864437928}
   - component: {fileID: 5645680266864437927}
   - component: {fileID: 5645680266864437926}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26876,7 +26876,7 @@ GameObject:
   - component: {fileID: 5645680266868150479}
   - component: {fileID: 5645680266868150478}
   - component: {fileID: 5645680266868150477}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29125,7 +29125,7 @@ GameObject:
   - component: {fileID: 5645680266927936976}
   - component: {fileID: 5645680266927937007}
   - component: {fileID: 5645680266927937006}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe-Merged (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30540,7 +30540,7 @@ GameObject:
   - component: {fileID: 5645680267064423545}
   - component: {fileID: 5645680267064423544}
   - component: {fileID: 5645680267064423543}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30850,7 +30850,7 @@ GameObject:
   - component: {fileID: 5645680267209011588}
   - component: {fileID: 5645680267209011587}
   - component: {fileID: 5645680267209011586}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Icosphere (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

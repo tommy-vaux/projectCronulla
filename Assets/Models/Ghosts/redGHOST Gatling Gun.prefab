@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6968120918503334690}
   - component: {fileID: 6968120918503334701}
   - component: {fileID: 6968120918503334700}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 6968120918566524831}
   - component: {fileID: 6968120918566524830}
   - component: {fileID: 6968120918566524825}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1531,7 +1531,7 @@ GameObject:
   - component: {fileID: 6968120918611645339}
   - component: {fileID: 6968120918611645338}
   - component: {fileID: 6968120918611645285}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2739,7 +2739,7 @@ GameObject:
   - component: {fileID: 6968120918642301745}
   - component: {fileID: 6968120918642301744}
   - component: {fileID: 6968120918642301747}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3049,7 +3049,7 @@ GameObject:
   - component: {fileID: 6968120918842255812}
   - component: {fileID: 6968120918842255815}
   - component: {fileID: 6968120918842255814}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3359,7 +3359,7 @@ GameObject:
   - component: {fileID: 6968120918888442003}
   - component: {fileID: 6968120918888442002}
   - component: {fileID: 6968120918888442013}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3669,7 +3669,7 @@ GameObject:
   - component: {fileID: 6968120919045684719}
   - component: {fileID: 6968120919045684718}
   - component: {fileID: 6968120919045684713}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4877,7 +4877,7 @@ GameObject:
   - component: {fileID: 6968120919067424303}
   - component: {fileID: 6968120919067424302}
   - component: {fileID: 6968120919067424297}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6085,7 +6085,7 @@ GameObject:
   - component: {fileID: 6968120919146298409}
   - component: {fileID: 6968120919146298408}
   - component: {fileID: 6968120919146298411}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7292,7 +7292,7 @@ GameObject:
   - component: {fileID: 6968120919213638558}
   - component: {fileID: 6968120919213638553}
   - component: {fileID: 6968120919213638552}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe-Merged
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8742,7 +8742,7 @@ GameObject:
   - component: {fileID: 6968120919319016886}
   - component: {fileID: 6968120919319016881}
   - component: {fileID: 6968120919319016880}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9950,7 +9950,7 @@ GameObject:
   - component: {fileID: 6968120919354127919}
   - component: {fileID: 6968120919354127918}
   - component: {fileID: 6968120919354127913}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10260,7 +10260,7 @@ GameObject:
   - component: {fileID: 6968120919382119114}
   - component: {fileID: 6968120919382119125}
   - component: {fileID: 6968120919382119124}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10570,7 +10570,7 @@ GameObject:
   - component: {fileID: 6968120919404468380}
   - component: {fileID: 6968120919404468383}
   - component: {fileID: 6968120919404468382}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11778,7 +11778,7 @@ GameObject:
   - component: {fileID: 6968120919421839073}
   - component: {fileID: 6968120919421839072}
   - component: {fileID: 6968120919421839075}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12067,7 +12067,7 @@ GameObject:
   - component: {fileID: 6968120919476140522}
   - component: {fileID: 6968120919476140533}
   - component: {fileID: 6968120919476140532}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12377,7 +12377,7 @@ GameObject:
   - component: {fileID: 6968120919483326432}
   - component: {fileID: 6968120919483326435}
   - component: {fileID: 6968120919483326434}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12687,7 +12687,7 @@ GameObject:
   - component: {fileID: 6968120919622415382}
   - component: {fileID: 6968120919622415377}
   - component: {fileID: 6968120919622415376}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12997,7 +12997,7 @@ GameObject:
   - component: {fileID: 6968120919713648719}
   - component: {fileID: 6968120919713648718}
   - component: {fileID: 6968120919713648713}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14201,7 +14201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6968120919746758305}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: redGHOST Gatling Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14217,7 +14217,7 @@ Transform:
   m_GameObject: {fileID: 6968120919746758304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -16.59, y: -6.3222656, z: 3.3087769}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children:
   - {fileID: 6968120919213638555}
   - {fileID: 6968120920481462943}
@@ -14261,7 +14261,7 @@ GameObject:
   - component: {fileID: 6968120919948834408}
   - component: {fileID: 6968120919948834411}
   - component: {fileID: 6968120919948834410}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe-Merged (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14416,7 +14416,7 @@ GameObject:
   - component: {fileID: 6968120920092852879}
   - component: {fileID: 6968120920092852878}
   - component: {fileID: 6968120920092852873}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14726,7 +14726,7 @@ GameObject:
   - component: {fileID: 6968120920223118762}
   - component: {fileID: 6968120920223118773}
   - component: {fileID: 6968120920223118772}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15934,7 +15934,7 @@ GameObject:
   - component: {fileID: 6968120920332983296}
   - component: {fileID: 6968120920332983299}
   - component: {fileID: 6968120920332983298}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16244,7 +16244,7 @@ GameObject:
   - component: {fileID: 6968120920363421182}
   - component: {fileID: 6968120920363421177}
   - component: {fileID: 6968120920363421176}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17452,7 +17452,7 @@ GameObject:
   - component: {fileID: 6968120920444924419}
   - component: {fileID: 6968120920444924418}
   - component: {fileID: 6968120920444924429}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18659,7 +18659,7 @@ GameObject:
   - component: {fileID: 6968120920481462930}
   - component: {fileID: 6968120920481462941}
   - component: {fileID: 6968120920481462940}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pipe-Merged (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20074,7 +20074,7 @@ GameObject:
   - component: {fileID: 6968120920592953515}
   - component: {fileID: 6968120920592953514}
   - component: {fileID: 6968120920592953525}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
