@@ -33,61 +33,64 @@ public class waveController : MonoBehaviour
         {
             StartCoroutine(waitForWave());
         }
+
     }
     // every ten seconds...
     IEnumerator waitForWave()
     {
         waveWaiting = true;
         spawnType = 0;
-        StartCoroutine(enemySpawn());
-
-        yield return new WaitForSeconds(10.0f);
+        StartCoroutine(spawnBasic());
+        StartCoroutine(spawnPinata());
+        StartCoroutine(spawnTrojan());
+        WAVE++;
+        yield return new WaitForSeconds(20.0f);
         waveWaiting = false;
     }
-    IEnumerator enemySpawn()
+    
+        
+   
+    IEnumerator spawnBasic()
     {
         spawnWaiting = true;
-        
-        addEnemy(spawnType);
-        spawnType++;
-        WAVE++;
+        for (int i = 0; i <= WAVE * 3; i++)
+        {
+            {
+                //Debug.Log("spawned " + WAVE * 5 + " basics");
+                GameObject enemyInstance = Instantiate(basicEnemy, spawnLocation.position, Quaternion.identity);
+
+            }
+        }
         yield return new WaitForSeconds(1 / WAVE * 0.5f);
         spawnWaiting = false;
     }
-    void addEnemy(int type)
-    {
-        //  add basics (top
-        if (type == 0)
-            for (int i = 0; i <= WAVE * 5; i++)
-            {
-                {
-                    Debug.Log("spawned " + WAVE * 5 + " basics");
-                    GameObject enemyInstance = Instantiate(basicEnemy, spawnLocation.position, Quaternion.identity);
+    IEnumerator spawnPinata() {
+        spawnWaiting = true;
 
-                }
-            }
-        //  add heavies (middle)
-        else if (type == 1)
+        for (int i = 0; i <= WAVE * 2; i++)
         {
-            for (int i = 0; i <= WAVE * 2; i++)
-            {
-                Debug.Log("spawned " + WAVE * 2 + " heavies");
-                GameObject enemyInstance = Instantiate(heavyEnemy, spawnLocation.position, Quaternion.identity);
+            //Debug.Log("spawned " + WAVE * 2 + " heavies");
+            GameObject enemyInstance = Instantiate(heavyEnemy, spawnLocation.position, Quaternion.identity);
 
-            }
         }
-        //  add trojans (bottom)
-        else if (type == 2)
-        {
-            if (WAVE >= 10)
-            {
-                for (int i = 0; i <= WAVE / 10; i++)
-                {
-                    Debug.Log("spawned " + WAVE / 10 + " trojans");
-                    GameObject enemyInstance = Instantiate(trojanEnemy, spawnLocation.position, Quaternion.identity);
-
-                }
-            }
-        }
+        yield return new WaitForSeconds(1 / WAVE * 0.5f);
+        spawnWaiting = false;
     }
+    IEnumerator spawnTrojan() {
+        spawnWaiting = true;
+
+        if (WAVE >= 10)
+        {
+            for (int i = 0; i <= WAVE / 10; i++)
+            {
+                //Debug.Log("spawned " + WAVE / 10 + " trojans");
+                GameObject enemyInstance = Instantiate(trojanEnemy, spawnLocation.position, Quaternion.identity);
+
+            }
+        }
+        yield return new WaitForSeconds(1 / WAVE * 0.5f);
+        spawnWaiting = false;
+    }
+        
+  
 }
