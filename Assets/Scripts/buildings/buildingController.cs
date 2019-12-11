@@ -18,14 +18,22 @@ public class buildingController : MonoBehaviour
     private AudioSource buildingAudio;
     public Animator buildingAnim;
 
+    public gameController controller;
+
     public bool flipTurretDirection = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        if(controller == null)
+        {
+           controller =  GameObject.Find("GAME CONTROLLER").GetComponent<gameController>();
+        }
+        controller.candy -= (int)data.cost;
         // apply stats from data
         detector.thisCollider.radius = data.range;
         buildingAudio = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
