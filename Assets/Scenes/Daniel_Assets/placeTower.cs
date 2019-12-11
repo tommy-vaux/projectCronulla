@@ -69,10 +69,10 @@ public class placeTower : MonoBehaviour
                 if (hit.transform.tag == "placementArea"){
                     Vector3 actualplace = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.transform.position.z);
                     var place = Instantiate(selectedTower, actualplace, hit.transform.rotation);
-                    Debug.Log("Placed at"+ actualplace+"!"); 
+                    //Debug.Log("Placed at"+ actualplace+"!"); 
                 }
                 else {
-                   Debug.Log("Not Placed!"); 
+                   //Debug.Log("Not Placed!"); 
                 }
             }
         }
