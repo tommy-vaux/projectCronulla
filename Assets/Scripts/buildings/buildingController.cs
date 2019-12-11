@@ -45,6 +45,7 @@ public class buildingController : MonoBehaviour
             if(turret != null)
             {
                 aimGun();
+                animationAndSound();
             }
             
         }
@@ -67,15 +68,26 @@ public class buildingController : MonoBehaviour
 
     void animationAndSound()
     {
-        if(detector.enemiesInRange[0] != null)
+        if(detector.enemiesInRange.Count > 0)
         { // enemy in range
-            buildingAudio.clip = data.attack;
-            buildingAudio.Play();
-
+            if(!buildingAudio.isPlaying)
+            {
+                buildingAudio.clip = data.attack;
+                buildingAudio.Play();
+            }
+            if(buildingAnim != null)
+            {
+                buildingAnim.SetBool("inRange", true);
+            }
+            
 
         } else
         {
             //buildingAnim.
+            if(buildingAnim != null) {
+                buildingAnim.SetBool("inRange", false);
+            }
+            buildingAudio.Stop();
         }
     }
     // attacks the first enemy in the array of enemies in range

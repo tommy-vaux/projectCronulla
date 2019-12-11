@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 3
   damage: 5
-  cooldown: 0.75
+  cooldown: 0.5
   cost: 10
   attack: {fileID: 8300000, guid: 9b15a5609f118134ab0dc70facbac0d6, type: 3}
   place: {fileID: 0}

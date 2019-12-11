@@ -8226,10 +8226,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cac19deef69f5349aa0f726b8603fa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 829673ef2dcdacf47ad315ca630efb61, type: 2}
+  data: {fileID: 11400000, guid: a2fa9a0d26dba754382cc631502e8a61, type: 2}
   detector: {fileID: 5517912764998045208}
   turret: {fileID: 0}
-  buildingAnim: {fileID: 0}
+  buildingAnim: {fileID: 117240268070223489}
+  controller: {fileID: 0}
   flipTurretDirection: 0
 --- !u!82 &3689144135127549862
 AudioSource:
