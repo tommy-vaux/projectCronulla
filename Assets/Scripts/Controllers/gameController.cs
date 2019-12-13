@@ -27,7 +27,7 @@ public class gameController : MonoBehaviour
     public int startCandy = 500;
 
     // Settings
-    int gameSpeedChosen = 0;
+    int gameSpeedChosen = 1;
     float[] speeds = {0.5f, 1f, 2f, 5f, 10f};
 
     Collider a;
@@ -42,8 +42,8 @@ public class gameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthText.text = ": " + health + "%";
-        candyText.text = ": " + candy;
+        healthText.text = health + "%";
+        candyText.text = "" + candy;
         scoreText.text = "Score: " + score;
         waveText.text = "Wave: " + wave;
         gamespeedText.text = ":" + speeds[gameSpeedChosen] + "X";

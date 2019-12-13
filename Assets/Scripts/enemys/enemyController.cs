@@ -64,6 +64,7 @@ public class enemyController : MonoBehaviour
         agent.enabled = false;
 
         controller.candy += (int)data.value;
+        controller.score += (int)data.value * controller.wave;
         sound.clip = data.death;
         sound.Play();
 

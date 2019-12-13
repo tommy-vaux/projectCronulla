@@ -18,13 +18,19 @@ public class waveController : MonoBehaviour
     [Header("Misc")]
     public int WAVE = 1;
     public Transform spawnLocation;
-
+    public gameController controller;
 
     private Stack<GameObject> enemies;
 
     private bool waveWaiting = false;
     private bool spawnWaiting = false;
 
+    private void Start()
+    {
+        controller = GetComponent<gameController>();
+
+        controller.wave = WAVE;
+    }
 
     // Update is called once per frame
     void Update()
@@ -44,6 +50,7 @@ public class waveController : MonoBehaviour
         StartCoroutine(spawnPinata());
         StartCoroutine(spawnTrojan());
         WAVE++;
+        controller.wave = WAVE;
         yield return new WaitForSeconds(20.0f);
         waveWaiting = false;
     }
